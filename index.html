@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+	fieldset {
+	width: 600px;
+}
+
+legend {
+	color: #f6416c;
+}
+body {
+		background-color: Powderblue;
+	
+}
+
+legend {
+			font-family: "veranda", sans-serif; 
+		}
+
+</style>
+</head>
+
+<body>
+<center><h1>Form Mahasiswa Fasilkom-TI</h1>
+</center>
+
+
+<form method="post" action="daftar.php">
+
+<fieldset style="margin: auto;">
+<legend align="center"><b><h2>Biodata</h2></b></legend>
+
+<table  width="425" border="0" align="center"  cellpadding="2" cellspacing="5">
+
+<tr>
+	<td>Nama</td>
+	<td>:</td>
+	<td><input type="text" name="Nama" size=25></td>
+</tr>
+	
+<tr>
+	<td>NIM</td>
+	<td>:</td>
+	<td><input type="number" name="NIM" size=25></td><p>
+</tr>
+	
+<tr>
+	<td>Email</td>
+	<td>:</td>
+	<td><input type="email" name="url" size=25 required></td><p>
+</tr>
+
+<tr>
+	<td>TTL</td>	
+	<td>:</td>
+	<td><input name="Tempat_Lahir" type="text" size=25 placeholder="Tempat"></td>
+	<td><input type="date" name="tanggal"></td>
+</tr>
+
+<tr>
+	<td>Agama</td>
+	<td>:</td>
+	<td>
+	<select name="Agama">
+	<option>--Pilih--</option>
+	<option>Islam</option>
+	<option>Protestan</option>
+	<option>Katholik</option>
+	<option>Buddha</option>
+	<option>Hindu</option>
+	</select>
+</tr>
+	
+<tr>
+	<td>No. HP</td>
+	<td>:</td>
+	<td>
+	<input type="number" size=25>
+	</td><p>
+</tr>
+
+<tr>
+	<td>Prodi</td>
+	<td>:</td>
+	<td>
+	<opvalue><br><input type="radio" name="prodi" value="Ilmu Komputer">Ilmu Komputer<br>
+	<input type="radio" name="prodi" value="Teknologi Informasi">Teknologi Informasi<br>
+	</td><p>
+</tr>
+
+<tr>
+	<td>Jenis Kelamin</td>
+	<td>:</td>
+	<td>
+	<opvalue><br><input type="radio"name="jk">Pria<br>
+	<input type="radio" name="jk">Wanita<br>
+	</td><p>
+</tr>
+
+<tr>
+	<td>Hobi</td>
+	<td>:</td> 
+	<td>
+	<br><input type="checkbox" name="hobi">Bersepeda<br>
+	<input type="checkbox" name="hobi">Menari<br>
+	<input type="checkbox" name="hobi">Melukis<br>
+	<input type="checkbox" name="hobi">Menggambar<br>
+	<input type="checkbox" name="hobi">Membaca<br>
+	<input type="checkbox" name="hobi">Bermain Musik<br>
+	<input type="checkbox" name="hobi">Memasak<br>
+	<input type="checkbox" name="hobi">Lain-lain<br>
+	</td><p>
+</tr>
+
+<tr>
+	<td>Alamat</td>
+	<td>:</td>
+	<td>
+	<opvalue><br><textarea name="alamat=" rows="3" cols="22">
+	</textarea>
+	</td>
+</tr>
+
+</table>
+</form>
+</fieldset>
+
+<form>
+<fieldset style="margin: auto;">
+<legend align="center"><b><h2>Akun</h2></b></legend>
+
+<table align="center" cellpadding="2">
+
+<tr>
+	<td>Username</td>
+	<td>:</td>
+	<td>
+	<input type="text" name="Username" placeholder="Masukkan Username"><br>
+	</td>
+</tr>
+
+<tr>
+	<td>Password</td>
+	<td>:</td>
+	<td>
+	<input type="password" name="Password" placeholder="Masukkan Password"><br>
+	</td>
+</tr>
+
+<tr>
+	<td>Konfirmasi Password</td>
+	<td>:</td>
+	<td>
+	<input type="password" name="Password" placeholder="Konfirmasi Password"><br>
+	</td>
+</tr>
+
+
+	<td>
+	<input type="submit" value="Daftar">
+	<input type="submit" value="Reset">
+	</td>
+
+
+</table>
+</fieldset>
+</form>
